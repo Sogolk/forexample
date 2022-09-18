@@ -1,0 +1,608 @@
+/* Домик ведьмы родника и рябины */
+
+.domik {
+    position: absolute;
+    width: 862.75px;
+    height: 140.09px;
+    left: 273.67px;
+    top: 280.32px;
+
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+}
+
+/* современная сказка и чайные истории */
+
+.PZ {
+    position: absolute;
+    width: 494px;
+    height: 38px;
+    left: 523px;
+    top: 446px;
+
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: light;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-variant: small-caps;
+   
+
+    color: rgb(255, 255, 255) ;
+
+}
+
+/*Это место куда должна встать картинка*/
+
+.container1 {
+
+position: relative;
+width: 1440px;
+height: 3992px;
+
+}
+
+/* Настройки вставки картинки с иван-чаем */
+
+.kart {
+
+position: absolute;
+width: 1440px;
+height: 789px;
+left: 0px;
+top: 0px;
+
+background: url(i1.jpg);
+
+}
+
+/*Место куда встанет фильтр*/
+
+.container2 {
+
+position: absolute;
+width: 1440px;
+height: 789px;
+left: 0px;
+top: 0px;
+
+}
+
+/* filtr на картинке */
+
+.filtr {
+
+position: absolute;
+width: 1440px;
+height: 789px;
+left: 0px;
+top: 0px;
+
+background: rgba(55, 28, 28, 0.49);
+
+}
+
+/* зеленая кнопка */
+
+.btn1 {
+
+position: absolute;
+width: 174px;
+height: 45px;
+left: 523px;
+top: 538px;
+
+background: #757535;
+border-radius: 5px;
+border: 2px solid #757535;
+font-family: 'Roboto', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+}
+
+/* при нажатии */
+.btn1:hover {
+
+    position: absolute;
+    width: 174px;
+    height: 45px;
+    left: 523px;
+    top: 538px;
+    
+    background: #5e5e2a;
+    border-radius: 5px;
+    border: 2px solid #5e5e2a;
+    font-family: 'Roboto', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+    }
+
+/* надпись на кнопке1 не работает нифига как надо. точку убрала сама
+link1 {
+position: absolute;
+width: 124px;
+height: 7px;
+left: 552px;
+top: 558px;
+font-family: 'Roboto', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+} */
+
+/* прозрачная кнопка */
+.btn2 {
+position: absolute;
+width: 174px;
+height: 45px;
+left: 720px;
+top: 538px;
+background: #fffcfc00;
+border-radius: 5px;
+border: 2px solid #FFFFFF;
+font-family: 'Roboto', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+}
+
+.btn2:hover {
+    position: absolute;
+    width: 174px;
+    height: 45px;
+    left: 720px;
+    top: 538px;
+    background: #fffcfc00;
+    border-radius: 5px;
+    border: 2px solid #FFE4E1;
+    font-family: 'Roboto', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+}
+
+/* надпись на кнопке2 не работает нифига как надо убрала точку специально
+link2 {
+position: absolute;
+width: 124px;
+height: 7px;
+left: calc(50% - 124px/2 + 87px);
+top: calc(50% - 7px/2 + 167px);
+
+font-family: 'Roboto', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+} */
+
+/* стиль для ссылок */
+.link {
+font-family: 'Roboto', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/* Моя задача не только собрать и смешать сбор, но и рассказать историю трав. Вы будете окутаны теплотой или терпкостью трав. */
+.p1 {
+position: absolute;
+width: 1072px;
+height: 134px;
+left: 184px;
+top: 846px;
+
+font-family: 'Roboto', Arial, sans-serif;;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #241A1A;
+}
+
+/* свежий */
+.fresh {
+position: absolute;
+width: 402px;
+height: 402px;
+left: 519px;
+top: 1037px;
+
+background: url(photo_2022-08-20_18-47-46.jpg);
+border-radius: 5px;
+}
+
+/* сухой */
+.dry {
+position: absolute;
+width: 402px;
+height: 402px;
+left: 51px;
+top: 1037px;
+
+background: url(photo_2022-05-04_20-34-34.jpg);
+border-radius: 5px;
+}
+
+/* заваренный */
+.wet {
+position: absolute;
+width: 402px;
+height: 402px;
+left: 987px;
+top: 1037px;
+
+background: url(photo_2022-08-17_15-12-37.jpg);
+border-radius: 5px;
+}
+
+/* Травяные чаи можно заваривать свежими или сухими. Их можно заваривать в чайнике или кружке. А к чаю можно добавить мед или сахар. */
+.p2 {
+position: absolute;
+width: 1352px;
+height: 134px;
+left: 44px;
+top: 1489px;
+
+font-family: 'Roboto', Arial, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #241A1A;
+}
+
+/* фото яблочной мяты */
+.apple {
+position: absolute;
+width: 402px;
+height: 402px;
+left: 51px;
+top: 1672px;
+
+background: url(TUnBk4RyRz4.jpg);
+border-radius: 5px;
+}
+
+/* filtr на яблочной*/
+.applef {
+position: absolute;
+width: 402px;
+height: 402px;
+left: 51px;
+top: 1672px;
+
+background: rgba(55, 28, 28, 0.2);
+}
+
+/* фото ментоловой*/
+.mentol {
+position: absolute;
+width: 402px;
+height: 402px;
+left: 519px;
+top: 1672px;
+
+background: url(wXVqztOx7GM.jpg);
+border-radius: 5px;
+}
+
+/* filtr на ментоловой*/
+.mentolf {
+position: absolute;
+width: 402px;
+height: 402px;
+left: 519px;
+top: 1672px;
+
+background: rgba(55, 28, 28, 0.2);
+}
+
+/* фото кучерявой*/
+.curly {
+position: absolute;
+width: 402px;
+height: 402px;
+left: 987px;
+top: 1672px;
+
+background: url(gxjEf9mNygU.jpg);
+border-radius: 5px;
+}
+
+/* filtr на кучерявой */
+.curlyf {
+position: absolute;
+width: 402px;
+height: 402px;
+left: 987px;
+top: 1672px;
+
+background: rgba(55, 28, 28, 0.2);
+}
+
+/* На фото мои любимые сорта мяты с моего участка, а всего у меня около 20 видов. */
+.p3{
+position: absolute;
+width: 1278px;
+height: 134px;
+left: 90px;
+top: 2111px;
+
+font-family: 'Roboto', Arial, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #241A1A;
+}
+
+/* фото со мной */
+.yafoto {
+position: absolute;
+width: 402px;
+height: 516px;
+left: 51px;
+top: 2281px;
+
+background: url(JEMtDTSfCdc.jpg);
+border-radius: 5px;
+}
+
+/* Обо мне */
+.yatexth {
+position: absolute;
+width: 254px;
+height: 134px;
+left: 854px;
+top: 2253px;
+
+font-family: 'Roboto', Arial, sans-serif;
+font-style: bold;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #241A1A;
+}
+
+/* Уже несколько лет я увлекаюсь выращиванием и сбором ароматных и лекарственных трав. Часто делаю травяные и фруктовые чаи на заказ под настроение/цель или описание. Пиши мне! */
+.yatext {
+position: absolute;
+width: 833px;
+height: 263px;
+left: 549px;
+top: 2407px;
+
+font-family: 'Roboto', Arial, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #241A1A;
+}
+
+/* vk */
+.vk {
+position: absolute;
+width: 100px;
+height: 100px;
+left: 704px;
+top: 2697px;
+
+background: url(vk.png);
+
+}
+
+/* tg */
+.tg {
+position: absolute;
+width: 100px;
+height: 100px;
+left: 915px;
+top: 2697px;
+
+background: url(telegram.png);
+}
+
+/* wa */
+.wa {
+position: absolute;
+width: 100px;
+height: 100px;
+left: 1126px;
+top: 2697px;
+
+background: url(whatsapp.png);
+}
+
+/* Контакты */
+.cont {
+position: absolute;
+width: 806px;
+height: 123px;
+left: 600px;
+top: 2883px;
+font-family: 'Roboto', Arial, sans-serif;
+font-style: bold;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+/* Оставляй свои контакты и я свяжусь с тобой сама */
+.tex {
+position: absolute;
+width: 766px;
+height: 38px;
+left: 400px;
+top: 2997px;
+font-family: 'Roboto', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+/* картинка 2 */
+.kart1 {
+position: absolute;
+width: 1440px;
+height: 789px;
+left: 0px;
+top: 2864px;
+
+background: url(trava-lug-tsvety-leto.jpg);
+}
+
+/* filtr */
+.filtr1 {
+position: absolute;
+width: 1440px;
+height: 789px;
+left: 0px;
+top: 2864px;
+background: rgba(55, 28, 28, 0.49);
+}
+
+/* дальще штука для сбора контактов */
+
+/* имя */
+.textbox1 {
+position: absolute;
+width: 742px;
+height: 57px;
+left: 349px;
+top: 3071px;
+background: rgba(217, 217, 217, 0.7);
+border-radius: 5px;
+}
+
+/* почта */
+.textbox2 {
+position: absolute;
+width: 742px;
+height: 57px;
+left: 346px;
+top: 3164px;
+background: rgba(217, 217, 217, 0.7);
+border-radius: 5px;
+}
+
+/* номер телефона */
+.textbox3 {
+position: absolute;
+width: 742px;
+height: 57px;
+left: 349px;
+top: 3257px;
+background: rgba(217, 217, 217, 0.7);
+border-radius: 5px;
+}
+
+/* комментарий */
+.textbox4 {
+position: absolute;
+width: 742px;
+height: 183px;
+left: 349px;
+top: 3350px;
+background: rgba(217, 217, 217, 0.7);
+border-radius: 5px;
+}
+
+/*кнопка Оставить*/
+.btn3 {
+position: absolute;
+width: 174px;
+height: 45px;
+left: 634px;
+top: 3573px;
+background: #757535;
+border-radius: 5px;
+border: 2px solid #757535;
+font-family: 'Roboto', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #FFFFFF;
+}
+
+/* при нажатии */
+.btn3:hover {
+position: absolute;
+width: 174px;
+height: 45px;
+left: 634px;
+top: 3573px;
+background: #5e5e2a;
+border-radius: 5px;
+border: 2px solid #5e5e2a;
+}

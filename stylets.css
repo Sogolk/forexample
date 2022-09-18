@@ -1,0 +1,56 @@
+/* картинка */
+.kart {
+position: absolute;
+width: 1440px;
+height: 789px;
+left: -60px;
+top: 1.5px;
+background: url(trava-polevye-cvety-leto.jpg);
+}
+
+/* filtr */
+.filtr {
+position: absolute;
+width: 1440px;
+height: 789px;
+left: -0.5px;
+top: 0px;
+background: rgba(55, 28, 28, 0.49);
+}
+
+/* Я совсем скоро напишу или позвоню тебе. Мы обговорим все, что ты захочешь узнать о моем чае и опыте! */
+.text {
+position: absolute;
+width: 806px;
+height: 123px;
+left: 325px;
+top: 291.5px;
+font-family: 'Roboto', Arial, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+/* Кнопка Вернуться */
+.btn3 {
+position: absolute;
+width: 174px;
+height: 45px;
+left: 633px;
+top: 710.5px;
+background: #757535;
+border-radius: 5px;
+font-family: 'Roboto', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
